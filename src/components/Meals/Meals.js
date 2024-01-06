@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import Cart from "../UI/Cart";
 
 import MealsSummary from "./MealsSummary";
 import AvailableMeals from "./AvailableMeals";
