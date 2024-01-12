@@ -1,16 +1,13 @@
-import { Fragment } from "react";
-import Cart from "../UI/Card";
-
 import MealsSummary from "./MealsSummary";
 import AvailableMeals from "./AvailableMeals";
 
-const Meals = () => {
-  return (
-    <Fragment>
-      <MealsSummary />
-      <AvailableMeals />
-    </Fragment>
-  );
-};
+const Meals =()=>{
+    return(
+        <>
+           <MealsSummary/>
+           <AvailableMeals/>
+        </>
+    )
+}
 
 export default Meals;
